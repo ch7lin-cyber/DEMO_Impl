@@ -1,0 +1,38 @@
+[
+    {
+        "name": "DELTA arm-none-eabi-10_3_1",
+        "compilers": {
+            "C": "${env:CORNER_ARM_NONE_EABI_10_3_1}/arm-none-eabi-gcc.exe",
+            "CXX": "${env:CORNER_ARM_NONE_EABI_10_3_1}/arm-none-eabi-g++.exe"
+        },
+        "preferredGenerator": {
+            "name": "MinGW Makefiles"
+        },
+        "toolchainFile": "toolchain_arm-none-eabi-10_3_1.cmake"
+    },
+    {
+        "name": "DELTA GCC-8.1.0-mingw64",
+        "compilers": {
+            "C": "gcc.exe",
+            "CXX": "g++.exe"
+        },
+        "preferredGenerator": {
+            "name": "MinGW Makefiles"
+        },
+        "toolchainFile": "toolchain_mingw64.cmake"
+    },
+    {
+        "name": "DELTA aarch64-none-eabi-13_3_1",
+        "compilers": {
+            "C": "C:/mingw64_RK/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc.exe",
+            "CXX": "C:/mingw64_RK/arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-g++.exe"        },
+        "preferredGenerator": {
+            "name": "MinGW Makefiles"
+        },
+        "toolchainFile": "toolchain_aarch64-none-eabi-13_3_1.cmake"
+    }
+
+
+
+
+]
