@@ -1,0 +1,18 @@
+@PACKAGE_INIT@
+
+if(NOT TARGET cklib)
+    add_library(cklib STATIC IMPORTED)
+
+    set_target_properties(cklib PROPERTIES IMPORTED_LOCATION ${CMAKE_CURRENT_LIST_DIR}/../../include/cklib/lib/libcklib_20260731.a)
+endif()
+
+if(NOT TARGET newlib)
+    add_library(newlib STATIC IMPORTED)
+    set_target_properties(newlib PROPERTIES IMPORTED_LOCATION ${CMAKE_CURRENT_LIST_DIR}/../../lib/libout.a)
+endif()
+
+include("${CMAKE_CURRENT_LIST_DIR}/DL_DEMO_Impl-targets.cmake")
+check_required_components("DL_DEMO_Impl-targets")
+
+
+
