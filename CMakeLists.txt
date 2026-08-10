@@ -1,0 +1,12 @@
+
+cmake_minimum_required(VERSION 3.17.1)
+
+project(DL_DEMO_Impl VERSION 0.0.0.0 LANGUAGES C CXX)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+set(CMAKE_PREFIX_PATH ${CMAKE_CURRENT_SOURCE_DIR}/packages/${TOOLCHAIN})
+set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/bin/packages/${TOOLCHAIN})
+
+add_subdirectory(source)
