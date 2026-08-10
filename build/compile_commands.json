@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/D/DELTA/_CornerC/Code/Install_software/Lib_softwareInstall/DL_DEMO_Impl/build/source",
+  "command": "C:\\mingw64_RK\\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-aarch64-none-linux-gnu\\bin\\aarch64-none-linux-gnu-g++.exe -DUINT32_AS_UNSIGNED_INT -DUSE_DEBUGGER=true -DUSE_FILESYSTEM -DUSE_WATCHDOG=true -ID:\\D\\DELTA\\_CornerC\\Code\\Install_software\\Lib_softwareInstall\\DL_DEMO_Impl\\include -ID:\\D\\DELTA\\_CornerC\\Code\\Install_software\\Lib_softwareInstall\\DL_DEMO_Impl\\include\\cklib\\inc -isystem D:\\D\\DELTA\\_CornerC\\Code\\Install_software\\Lib_softwareInstall\\DL_DEMO_Impl\\packages\\aarch64\\Corner\\include -g -std=gnu++11 -fPIC -o CMakeFiles\\DL_DEMO_Impl.dir\\DL_DEMO_Impl.cpp.o -c D:\\D\\DELTA\\_CornerC\\Code\\Install_software\\Lib_softwareInstall\\DL_DEMO_Impl\\source\\DL_DEMO_Impl.cpp",
+  "file": "D:/D/DELTA/_CornerC/Code/Install_software/Lib_softwareInstall/DL_DEMO_Impl/source/DL_DEMO_Impl.cpp",
+  "output": "source/CMakeFiles/DL_DEMO_Impl.dir/DL_DEMO_Impl.cpp.o"
+}
+]
